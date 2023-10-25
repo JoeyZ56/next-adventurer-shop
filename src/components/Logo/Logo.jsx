@@ -6,7 +6,7 @@ export default function Logo() {
     <div className={styles.container}>
       <div className={styles.Logo}>
         <div className={styles.title}>
-          <span>Potions</span>
+          <span>Adventurer</span>
           <span>Shop</span>
         </div>
       </div>

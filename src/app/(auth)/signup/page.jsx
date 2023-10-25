@@ -33,18 +33,33 @@ function SignUp() {
   return (
     <>
       <div className={styles.container}>
-        <form onSubmit={handleSubmit}>
+        <form className={styles.form} onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" required />
+            <input
+              placeholder="Name"
+              type="text"
+              name="name"
+              id="name"
+              required
+            />
           </div>
           <div>
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email" required />
+            <input
+              placeholder="Email"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
           </div>
           <div>
-            <label htmlFor="password">Password</label>
-            <input type="password" name="password" id="password" required />
+            <input
+              placeholder="Password"
+              type="password"
+              name="password"
+              id="password"
+              required
+            />
           </div>
           <div>
             <button type="submit">SignUp</button>
@@ -55,7 +70,7 @@ function SignUp() {
             </div>
           )}
           <div>
-            <Link href="/auth/login">Login</Link>
+            <Link href="/login">Login</Link>
           </div>
         </form>
       </div>

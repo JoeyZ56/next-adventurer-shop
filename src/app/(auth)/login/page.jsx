@@ -34,14 +34,24 @@ const Login = () => {
   return (
     <>
       <div className={styles.container}>
-        <form onSubmit={handleSubmit}>
+        <form className={styles.form} onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email" required />
+            <input
+              placeholder="Email"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
           </div>
           <div>
-            <label htmlFor="password">Password</label>
-            <input type="password" name="password" id="password" required />
+            <input
+              placeholder="Password"
+              type="password"
+              name="password"
+              id="password"
+              required
+            />
           </div>
           <div>
             <button type="submit">Login</button>
@@ -52,7 +62,7 @@ const Login = () => {
             </div>
           )}
           <div>
-            <Link href="/auth/signup">SignUp</Link>
+            <Link href="/signup">SignUp</Link>
           </div>
         </form>
       </div>
