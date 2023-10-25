@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 22vmin;
+  width: 22vmin;
+
+  background-image: url("https://media.tenor.com/SI8_LVMnpA4AAAAj/halloween-cauldron.gif");
+  background-size: 100% 100%;
+  font-size: 4vmin;
+  margin-top: 3vmin;
+
+  font-weight: 700;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: -120px;
+}
+//color: rgb(8, 221, 8) green
